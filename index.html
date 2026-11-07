@@ -1,0 +1,147 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow">
+<title>Andrews Media Sales System</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: single reading column; two-offer comparison table up top, then the funnel as a vertical timeline. */
+:root{
+  --bg:#f6f7f5; --surface:#ffffff; --fg:#1b2420; --muted:#5c6862; --line:#dde2de;
+  --accent:#1f5e4a; --accent-soft:#e3efe9; --warn:#8a5a00; --warn-soft:#fbf1da;
+  --display:'Bricolage Grotesque','Helvetica Neue',Arial,sans-serif;
+  --body:'IBM Plex Sans','Helvetica Neue',Arial,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#111815; --surface:#18211d; --fg:#e8eeea; --muted:#9aa8a1; --line:#2a3631;
+  --accent:#6fc2a2; --accent-soft:#1d2f28; --warn:#e8b95a; --warn-soft:#2e2713; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#111815; --surface:#18211d; --fg:#e8eeea; --muted:#9aa8a1; --line:#2a3631;
+  --accent:#6fc2a2; --accent-soft:#1d2f28; --warn:#e8b95a; --warn-soft:#2e2713; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.55;
+  padding-block:40px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+main{max-width:860px;margin:0 auto;display:flex;flex-direction:column;gap:44px}
+h1,h2,h3{font-family:var(--display);line-height:1.15;text-wrap:balance;margin:0}
+h1{font-size:clamp(30px,5vw,42px);letter-spacing:-.01em}
+h2{font-size:24px;margin-bottom:14px}
+h3{font-size:17px}
+p{margin:0}
+.sub{color:var(--muted);margin-top:8px}
+.label{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:8px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;min-width:620px;font-size:15px}
+th,td{text-align:left;vertical-align:top;padding:12px 14px;border-bottom:1px solid var(--line)}
+tr:last-child th,tr:last-child td{border-bottom:0}
+thead th{font-family:var(--display);font-size:16px;background:var(--accent-soft)}
+tbody th{font-weight:600;color:var(--muted);width:16%;font-size:14px}
+a{color:var(--accent);text-underline-offset:3px}
+.fine{margin-top:12px;font-size:14px;color:var(--muted)}
+.steps{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.steps li{display:grid;grid-template-columns:96px 1fr;gap:16px;padding:14px 0;border-top:1px solid var(--line)}
+.steps li:first-child{border-top:0}
+.when{font-weight:600;color:var(--accent);font-size:15px}
+.steps p{color:var(--fg)}
+.steps .who{display:block;color:var(--muted);font-size:14px;margin-top:2px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:16px;min-width:0}
+.card h3{margin-bottom:6px}
+.card p{font-size:15px;color:var(--muted)}
+.pill{display:inline-block;font-size:12px;font-weight:600;padding:2px 9px;border-radius:99px;margin-bottom:8px}
+.on{background:var(--accent-soft);color:var(--accent)}
+.off{background:var(--warn-soft);color:var(--warn)}
+.note{background:var(--warn-soft);border-radius:8px;padding:12px 14px;font-size:14px;color:var(--fg)}
+ul.plain{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px}
+.links{display:flex;flex-direction:column;gap:6px;overflow-wrap:anywhere}
+@media (max-width:520px){.steps li{grid-template-columns:1fr;gap:2px}}
+</style>
+
+</head>
+<body>
+<main>
+  <header>
+    <div class="label">Prepared Nov 6, 2026 · Gage Andrews</div>
+    <h1>Andrews Media Sales System</h1>
+    <p class="sub">Two offers, one book-a-call funnel, and the follow-up behind it. Script and supporting files are sent separately.</p>
+  </header>
+
+  <section>
+    <h2>The two offers</h2>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th></th><th>Content Systems (core)</th><th>Local Lead Engine</th></tr></thead>
+        <tbody>
+          <tr><th>Who</th><td>Founders and high-LTV professionals</td><td>Local service businesses</td></tr>
+          <tr><th>Page</th><td><a href="https://gageandrews.com/sales/ccs-system">gageandrews.com/sales/ccs-system</a></td><td><a href="https://gageandrews.com/sales/local-lead-engine">gageandrews.com/sales/local-lead-engine</a></td></tr>
+          <tr><th>Sold through</th><td>Cold email, reactivation, personalized video messages</td><td>Cold calling</td></tr>
+          <tr><th>Price</th><td>$5,997/mo, 90-day commitment ($17,991)</td><td>$3,000 install (kept either way), then $1,500/mo for 3 months. Total $7,500</td></tr>
+          <tr><th>Delivers</th><td>30 videos/mo (90 total) on 5 platforms, scripting, editing, posting, social management, Meta ads management, 2 shoots (Gage flies to the first)</td><td>Shoot day, videos, landing page, CRM, ads</td></tr>
+          <tr><th>Guarantee</th><td>1M views in 90 days, or we keep working free until it's hit. Not a refund.</td><td>15 signed jobs in 90 days, or $300 back per missed job, capped at $4,500. Client keeps the content, ads and CRM.</td></tr>
+          <tr><th>Downsell</th><td>Organic Content System: 20 videos/mo, $3,000/mo, offered only on a price objection</td><td>None</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="fine"><strong>Local guarantee terms:</strong> a job is a signed agreement plus deposit logged in the CRM. Client funds at least $3,000/mo in ad spend, does a 4-hour owner-on-camera shoot each month, replies to every enquiry within 5 minutes (auto text-back counts), logs every estimate the same day, closes about 20% of quotes (assumption, checked against each prospect's numbers), and gives CRM read access for 90 days. Void on payment default or banned ad accounts.</p>
+  </section>
+
+  <section>
+    <h2>Where leads come from</h2>
+    <div class="grid">
+      <div class="card"><span class="pill on">Active</span><h3>Cold email</h3><p>Positive replies run through a fixed reply and follow-up cadence.</p></div>
+      <div class="card"><span class="pill on">Active</span><h3>Cold calling</h3><p>Captured leads go into an automated 3-email drip.</p></div>
+      <div class="card"><span class="pill on">Active</span><h3>Reactivation campaigns</h3><p>Old leads and past conversations, worked in a dedicated pipeline.</p></div>
+      <div class="card"><span class="pill on">Active</span><h3>Personalized video messages</h3><p>Low-hanging-fruit prospects get a recorded one-to-one message.</p></div>
+      <div class="card"><span class="pill off">Paused</span><h3>Dream 100</h3><p>Tried, not running now.</p></div>
+      <div class="card"><span class="pill off">Stopped</span><h3>Cold DMs</h3><p>Sold a decent amount, then stopped.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Funnel: book a call</h2>
+    <p class="sub" style="margin:-6px 0 8px">Landing page, then booking and pre-call form, which goes straight into GoHighLevel (GHL).</p>
+    <ol class="steps">
+      <li><span class="when">+4 minutes</span><p>Confirmation email and text after booking. Includes the testimonial deck.<span class="who">Sent from Gage's personal email so it avoids spam.</span></p></li>
+      <li><span class="when">−24 hours</span><p>Reminder email and text. Includes the testimonial deck.<span class="who">Sent from the automated inbox.</span></p></li>
+      <li><span class="when">−15 minutes</span><p>Final reminder email and text.<span class="who">Sent from the automated inbox.</span></p></li>
+      <li><span class="when">Day before</span><p>Gage calls to confirm.<span class="who">No answer: calls again the day of and texts "still good for this time?"</span></p></li>
+      <li><span class="when">No-show</span><p>Double-dial after 5 minutes plus a text. Then 15 to 30 minutes later the contact enters the no-show sequence: a follow-up email and text.</p></li>
+    </ol>
+    <p class="note" style="margin-top:14px">No-show timing and channels are as Gage described them. The sequence is being confirmed inside GHL.</p>
+  </section>
+
+  <section>
+    <h2>Follow-up after a lead is captured</h2>
+    <div class="grid">
+      <div class="card"><h3>Cold email positives</h3><p>The reply posts to a Slack channel immediately with a fit check, next steps and a draft response, targeting a reply in 15 minutes or less. We scrape the phone number, add the lead to GHL, and call right away with a double dial. The goal on that call is to pitch and close. If no call books: timed touches over about 30 days, then a monthly useful message for 12 months, then recycle after 90 days.</p></div>
+      <div class="card"><h3>Cold call leads</h3><p>A bot builds a 3-email drip from the call transcript, notes and scraped web data on the prospect. Email 1 is the offer. Email 2 is a personalized audit. Email 3 is the break-off.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>The sales call</h2>
+    <ul class="plain">
+      <li><strong>Open:</strong> frame the call and confirm who decides.</li>
+      <li><strong>Discovery:</strong> background, current state (deal value and volume), problem, goal, gap, urgency, other options, recap, permission to pitch, then a 1-to-10 score.</li>
+      <li><strong>Pitch:</strong> research, then full revamp and batch shoot, then ads in parallel. Each step has a client walkthrough and a tie-down question.</li>
+      <li><strong>Close:</strong> two models (full build-out or leaner). "Need to think" gets a three-question close and a refundable deposit that holds the filming slot.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Proof and assets</h2>
+    <div class="links">
+      <a href="https://docs.google.com/spreadsheets/d/13oUNMvPlb9o_pOQkiLTeZJV0WXDSaNj39n3CI2Fr6vo/edit?usp=sharing">Sales tracker sheet</a>
+      <a href="https://gamma.app/docs/Andrews-Media-Case-Studies-hvhe2i38w70v8ou?mode=doc">Case study deck</a>
+      <a href="https://gageandrews.com">gageandrews.com</a> (all case studies live here)
+    </div>
+    <p class="fine">Testimonial deck available on request.</p>
+  </section>
+
+  <section>
+    <h2>Still in progress</h2>
+    <ul class="plain">
+      <li><strong>No VSL.</strong> The landing page is the main asset.</li>
+      <li><strong>Master dashboard,</strong> built with a team member, will connect everything from lead to cash. Not ready to share.</li>
+    </ul>
+  </section>
+</main>
+
+
+</body></html>
